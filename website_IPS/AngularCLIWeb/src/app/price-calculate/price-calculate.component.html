@@ -1,0 +1,53 @@
+<div class="container section-gap">
+    <!-- <div class="row">
+        <form>
+            <div class="form-group">
+                <input type="text" ng-model="platform1" name="platform1">
+                <input type="text" [(ngModel)]="a" name="a" (keyup)="sum_calculate()">
+                <input type="text" [(ngModel)]="b" name="b" (keyup)="sum_calculate()">
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-sm-5 col-md-5">
+            Hello {{ platform1 }}
+        </div>
+        <div class="col-sm-5 col-md-5">
+            Sum = {{ sum }}
+        </div>
+    </div> -->
+</div>
+
+<div class="container">
+    <h1 class="for-h">Pricing</h1>
+    <form class="example-container" (ngSubmit)="onSubmit()" [formGroup]="formPrice">
+        <!-- <div class="form-group">
+            <label for="platform">Platform</label>
+            <select class="form-control" name="platform" id="platform" formControlName="platform" (change)="onSelectChange()">
+                <option *ngFor="let order of platformOptions; let i = index" [value]="platformOptions[i].id">{{ platformOptions[i].name }}</option>
+            </select>
+            <label class="text-danger" *ngIf="formPrice.controls['platform'].touched && formPrice.controls['platform'].errors?.required"> Chọn Platform </label>
+        </div> -->
+        <mat-form-field
+            [hideRequiredMarker]=false
+            [floatLabel]="auto">
+            <mat-select required name="platform" id="platform" formControlName="platform" (selectionChange)="onSelectChange()" placeholder="Chọn Platform">
+                <mat-option *ngFor="let order of platformOptions; let i = index" [value]="platformOptions[i].id">{{ platformOptions[i].name }}</mat-option>
+            </mat-select>
+            <mat-label><mat-icon>list</mat-icon> <b><i>Chọn Platform</i></b></mat-label>
+        </mat-form-field>
+
+        <mat-label><mat-icon>library_add</mat-icon> <b><i>Khác</i></b></mat-label>
+        <div class="form-group" formGroupName="cv_ml">
+            <div class="form-check-inline">
+                <mat-checkbox formControlName="opencv">opencv  </mat-checkbox>
+            </div>
+            <div class="form-check-inline">
+                <mat-checkbox formControlName="machinelearing">machinelearing  </mat-checkbox>
+            </div>
+            <div class="form-check-inline">
+                <mat-checkbox formControlName="nvidia">nvidia  </mat-checkbox>
+            </div>
+        </div>
+    </form>
+</div>

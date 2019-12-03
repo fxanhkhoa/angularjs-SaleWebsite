@@ -1,0 +1,99 @@
+<div class="container">
+    <h1>ADD PRODUCT</h1>
+    
+    <md-content layout-padding>
+        <form name="addproductform" ng-submit="add_product_submit()">
+            <div layout="row">
+                <md-input-container flex="50">
+                  <label>Mã Barcode</label>
+                  <md-icon md-svg-src="/app/images/cyber-monday/svg/035-bar code.svg"></md-icon>
+                  <input required name="barcode" ng-model="product.barcode">
+                  <div ng-messages="addproductform.barcode.$error">
+                    <div ng-message="required">Điền mã barcode</div>
+                  </div>
+                </md-input-container>
+        
+                <md-input-container flex="50">
+                  <label>Mặt Hàng</label>
+                  <md-select name="type" ng-model="product.type" required>
+                    <md-option ng-repeat="item in product_type" value="{{item.value}}">{{item.text}}</md-option>
+                  </md-select>
+                </md-input-container>
+              </div>
+              <div layout="row">
+                <md-input-container flex="100">
+                    <label>Tên sản phẩm</label>
+                    <md-icon md-svg-src="/app/images/cyber-monday/svg/001-price tag.svg"></md-icon>
+                    <input required name="productname" ng-model="product.name">
+                    <div ng-messages="addproductform.productname.$error">
+                        <div ng-message="required">Điền tên sản phẩm</div>
+                    </div>
+                </md-input-container>
+              </div>
+
+              <div layout="row">
+                <md-input-container class="md-block" flex="50">
+                    <label>Đơn giá (VNĐ)</label>
+                    <md-icon md-svg-src="/app/images/cyber-monday/svg/040-search.svg"></md-icon>
+                    <input required type="number" step="any" name="price" ng-model="product.price_main" min="1"
+                            max="9999999" />
+            
+                    <div ng-messages="addproductform.price.$error" multiple md-auto-hide="false">
+                        <div ng-message="required">
+                            Giá chính <b>Bắt buộc</b>
+                        </div>
+            
+                        <div ng-message="min">
+                            Giá nhỏ nhất phải là 1
+                        </div>
+
+                        <div ng-message="max">
+                            {{addproductform.price.$viewValue | currency:"VNĐ":0}} vượt quá mức cho phép
+                        </div>
+                    </div>
+                </md-input-container>
+                <md-input-container flex="50">
+                    <label>Giá khác 1(VNĐ)</label>
+                    <input name="productname" ng-model="product.price1" placeholder="Ví dụ: Giá lạnh: 10000">
+                </md-input-container>
+              </div>
+              <div layout="row">
+                <md-input-container flex="50">
+                    <label>Giá khác 2(VNĐ)</label>
+                    <input name="productname" ng-model="product.price2" placeholder="Ví dụ: Giá 5 cái: 10000">
+                </md-input-container>
+                <md-input-container flex="50">
+                    <label>Giá khác 2(VNĐ)</label>
+                    <input name="productname" ng-model="product.price3" placeholder="Ví dụ: Giá lốc: 10000">
+                </md-input-container>
+              </div>
+              <div layout="row">
+                <md-input-container flex="50">
+                    <label>Số Lượng</label>
+                    <input required type="number" step="any" name="quantity" ng-model="product.quantity" min="0"
+                            max="9999999"/>
+                    <div ng-messages="addproductform.quantity.$error" multiple md-auto-hide="false">            
+                        <div ng-message="min">
+                            Giá nhỏ nhất phải là 1
+                        </div>
+            
+                        <div ng-message="max">
+                            {{addproductform.quantity.$viewValue | currency:"VNĐ":0}} vượt quá mức cho phép
+                        </div>
+                    </div>
+                </md-input-container>
+                <md-input-container flex="50">
+                    <label>Hạn Sử Dụng</label>
+                    <!-- <md-icon md-svg-src="/app/images/cyber-monday/svg/034-calendar.svg"></md-icon> -->
+                    <md-datepicker ng-model="product.expiredday" aria-label="Enter date"></md-datepicker>
+                </md-input-container>
+              </div>
+              <md-button type="submit" ng-disabled="addproductform.$invalid" class="md-raised md-primary" aria-label="Eat cake">
+                    Submit
+              </md-button>
+        </form>
+        <label class="{{style}}"> {{error}} </label>
+        <toaster-container></toaster-container>
+        <img ng-if="dataLoading" class="for-loading" src="../../../../img/IPS/loading.gif">
+    </md-content>
+</div>

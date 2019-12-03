@@ -1,0 +1,9 @@
+<div class="container section-gap">
+   <div class="col-md-6 col-md-offset-3 loginBox">
+       Welcome,  {{id}}
+       <a href="javascript:void(0);" (click)="logout()">Logout</a>
+   </div>
+   <div class="col-md-6 col-md-offset-3 loginBox">
+       <a [routerLink]="['../price']" routerLinkActive="active"><h4>Price</h4></a>
+   </div>
+</div>

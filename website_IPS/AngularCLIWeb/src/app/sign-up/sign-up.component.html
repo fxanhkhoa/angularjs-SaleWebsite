@@ -1,0 +1,75 @@
+<div class="container section-gap justify-content-center col-8" id="signup">
+   <h1 class="for-h">Đăng Ký</h1>
+   <form (ngSubmit)="onSubmit()" [formGroup]="formSignUp">
+     <div class="form-group">
+       <label for="email">Email address:</label>
+       <input 
+         placeholder="Email" 
+         type="email" 
+         class="form-control" 
+         id="email" 
+         name="email"
+         email
+         formControlName="email">
+         <label class="text-danger" *ngIf="formSignUp.get('email').touched && formSignUp.controls.email.errors?.required"> Nhập Email </label>
+         <label class="text-danger" *ngIf="formSignUp.controls.email.touched && formSignUp.controls.email.errors?.email"> Sai định dạng Email </label>
+     </div>
+     <div class="form-group">
+       <label for="password">Password:</label>
+       <input 
+         placeholder="Password" 
+         type="password" 
+         class="form-control" 
+         id="password" 
+         name="password"
+         formControlName="password">
+         <label class="text-danger" *ngIf="formSignUp.controls.password.touched && formSignUp.controls.password.errors?.required"> Nhập Password </label>
+     </div>
+     <div class="form-group" formGroupName="subject">
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" formControlName="hs"> Học Sinh
+            </label>
+        </div>
+      
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" formControlName="sv"> Sinh Viên
+            </label>
+        </div>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" formControlName="other"> Khác
+            </label>
+        </div>
+      
+     </div>
+     <div class="form-group">
+      <ngx-recaptcha2 #captchaElem
+          [siteKey]="'6LcWba8UAAAAAD27sHhCmBQ2-xf0PBtt7L1v9uFP'"
+          (reset)="handleReset()"
+          (expire)="handleExpire()"
+          (load)="handleLoad()"
+          (success)="handleSuccess($event)"
+          [useGlobalDomain]="false"
+          [size]="size"
+          [hl]="lang"
+          [theme]="theme"
+          [type]="type"
+          formControlName="recaptcha">
+      </ngx-recaptcha2>
+     </div>
+     <div class="form-group">
+        <button type="submit" class="btn btn-success" [disabled]="formSignUp.invalid">Submit</button>
+     </div>
+     <!-- <button class="btn btn-warning" (click)="postToExpress()">Post</button> -->
+     <div class="form-group">
+        <div [class]="classResponse" ng-if="errorMessage">{{ errorMessage }}</div>
+     </div>
+   </form>
+   <!-- <p> -->
+     <!-- {{ txtEmail.errors | json }} -->
+   <!-- </p> -->
+ </div>
+ 

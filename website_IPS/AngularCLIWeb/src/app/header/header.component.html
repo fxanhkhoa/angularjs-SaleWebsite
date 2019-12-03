@@ -1,0 +1,116 @@
+<!-- <header id="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a pageScroll class="nav-link" href="#home">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                  <a pageScroll class="nav-link" href="#about">Giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                  <a pageScroll class="nav-link" href="https://www.facebook.com/HOTRODOANIT">Fanpage</a>
+              </li>
+          </ul>
+      </div>
+
+      <a class="justify-content-center" href="http://fxips.ddns.net:3000/">
+        <img src="../../assets/images/IPS-LOGO-NOBG.png" width="50" height="50" alt="">
+      </a>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a pageScroll class="nav-link" href="#product">Sản phẩm</a>
+              </li>
+              <li class="nav-item">
+                  <a pageScroll class="nav-link" href="#service">Dịch vụ</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+  <a ngDraggable href="https://www.facebook.com/HOTRODOANIT" class="sticky">
+    <img src="../../assets/images/facebook_circle-512.png" width="50" height="50">
+    <p>Liên hệ ngay</p>
+  </a>
+</header>
+ -->
+
+<header>
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color indigo fixed-top" [containerInside]="false">
+
+        <!-- Navbar brand -->
+        <mdb-navbar-brand><a class="navbar-brand" href="#"><img src="../../assets/images/IPS-LOGO-NOBG.png" width="50" height="50" alt=""></a></mdb-navbar-brand>
+      
+        <!-- Collapsible content -->
+        <links>
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a pageScroll class="nav-link waves-light" mdbWavesEffect href="#home" [routerLink]="['home']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a pageScroll class="nav-link waves-light" mdbWavesEffect href="#product" [routerLink]="['home']" routerLinkActive="active">Sản phẩm</a>
+            </li>
+            <li class="nav-item">
+              <a pageScroll class="nav-link waves-light" mdbWavesEffect href="#service" [routerLink]="['home']" routerLinkActive="active">Dịch vụ</a>
+            </li>
+      
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" dropdown>
+              <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Khác<span class="caret"></span></a>
+              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a pageScroll class="dropdown-item waves-light" mdbWavesEffect href="#about" [routerLink]="['home']">About</a>
+                <a pageScroll class="dropdown-item waves-light" mdbWavesEffect href="#Platform_support" [routerLink]="['home']">Platform support</a>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Function 2</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.facebook.com/HOTRODOANIT">Facebook fanpage link</a>
+              </div>
+            </li>
+      
+          </ul>
+          <!-- Links -->
+      
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link">
+                <mdb-icon fab icon="twitter"></mdb-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <mdb-icon fab icon="google-plus"></mdb-icon>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <div class="btn-group" mdbDropdown>
+                  <mdb-icon fas icon="user" mdbDropdownToggle></mdb-icon>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-primary">
+                    <a *ngIf="!(isLoggedIn$ | async)" pageScroll class="dropdown-item" [routerLink]="['signin']" routerLinkActive="active" href="#signin">Đăng Nhập</a>
+                    <a *ngIf="!(isLoggedIn$ | async)" pageScroll class="dropdown-item" [routerLink]="['signup']" routerLinkActive="active" href="#signup">Đăng Ký</a>
+                    <a *ngIf="isLoggedIn$ | async" pageScroll class="dropdown-item" (click)="logout()">Logout</a>
+                    <a *ngIf="isLoggedIn$ | async" pageScroll class="dropdown-item">Cài đặt tài khoản</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="divider dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </links>
+        <!-- Collapsible content -->
+      
+      </mdb-navbar>
+      <!--/.Navbar-->
+      <a ngDraggable href="https://www.facebook.com/HOTRODOANIT" class="sticky">
+        <img src="../../assets/images/facebook_circle-512.png" width="50" height="50">
+        <p>Liên hệ ngay</p>
+      </a>
+</header>

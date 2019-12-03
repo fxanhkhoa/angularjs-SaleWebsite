@@ -1,0 +1,29 @@
+<div class="container-fluid" style="margin-left: 7%">
+    <h1>PRODUCT INFO</h1>
+    <div class="row" >
+        <div class="col-9 col-sm-5 col-md-4 col-lg-3 col-xl-3" ng-repeat="item in items" >
+            <div id="fdw-pricing-table">
+                <div class="plan plan5">
+                    <div class="header">{{item.fields.barcode}}</div>
+                    <div class="price">{{item.fields.price_main}}</div>  
+                    <div class="monthly">VND</div>      
+                    <ul>
+                        <li><b>Tên</b> {{item.fields.product_name}}</li>
+                        <li><b>Giá 1</b> {{item.fields.price1}}</li>
+                        <li><b>Giá 2</b> {{item.fields.price2}}</li>
+                        <li><b>Giá 3</b> {{item.fields.price3}}</li>
+                        <li><b>Loại</b> {{item.fields.type}}</li>
+                        <li><b>Số lượng còn</b> {{item.fields.quantity}}</li>
+                        <li><b>Ngày hết hạn</b> {{item.fields.expired_day | date: 'dd-MM-yyyy'}}</li>
+                    </ul>
+                    <a class="signup" href="/app/index.html#!/modify_product/{{item.fields.barcode}}">Sửa Thông Tin</a>         
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding-left: 40%">
+        <div class="pagination">
+            <a ng-repeat="each in list_number" href="{{each.link}}" ng-class="each.number == current_page ? 'active' : ''">{{each.number}}</a>
+        </div>
+    </div>
+</div>

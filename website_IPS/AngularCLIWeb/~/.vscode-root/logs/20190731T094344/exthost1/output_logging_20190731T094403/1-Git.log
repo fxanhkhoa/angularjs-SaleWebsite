@@ -1,0 +1,1456 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/kbui/IPS
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/angular.json
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.ts
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.css
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.css
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/homepage/homepage.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/home/home.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/app.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git rev-parse IPS_WEB
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git show :website_IPS/ipsweb/src/app/app.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git check-ignore -v -z --stdin
+> git show :website_IPS/ipsweb/src/app/header/header.component.css
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git show :website_IPS/ipsweb/src/app/header/header.component.css
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.html
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/footer/footer.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/footer/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/styles.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git ls-files --stage -- website_IPS/ipsweb/src/app/price-calculate/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/index.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/app.module.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.scss
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.ts
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :website_IPS/ipsweb/src/app/sign-up/sign-up.component.html
+> git show :website_IPS/ipsweb/src/app/price-calculate/price-calculate.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse IPS_WEB
+> git rev-parse --symbolic-full-name IPS_WEB@{u}
+> git rev-list --left-right IPS_WEB...refs/remotes/origin/IPS_WEB
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

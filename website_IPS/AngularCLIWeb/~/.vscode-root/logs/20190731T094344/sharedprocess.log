@@ -1,0 +1,10 @@
+[2019-07-31 09:43:47.804] [sharedprocess] [info] main {"machineId":"39afc4ec9d7231c4d6f92c6428d575ce3722680f0cd12a6c1d4c0dba8c4d9969"}
+[2019-07-31 09:43:48.325] [sharedprocess] [info] Deleted from disk tomiturtiainen.rf-intellisense /home/kbui/.vscode/extensions/tomiturtiainen.rf-intellisense-2.5.0
+[2019-07-31 09:43:48.345] [sharedprocess] [info] Deleted from disk ms-python.python /home/kbui/.vscode/extensions/ms-python.python-2019.6.22090
+[2019-07-31 09:44:12.804] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer
+[2019-07-31 09:44:27.777] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-31 09:44:38.639] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer /tmp/f6f6c38b-15c9-4cfb-85a9-0e15fc9c42ad
+[2019-07-31 09:44:39.605] [sharedprocess] [info] Extracted extension to /home/kbui/.vscode/extensions/.coenraads.bracket-pair-colorizer-1.0.61: coenraads.bracket-pair-colorizer
+[2019-07-31 09:44:39.605] [sharedprocess] [info] Renamed to /home/kbui/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61
+[2019-07-31 09:44:39.606] [sharedprocess] [info] Installation completed. coenraads.bracket-pair-colorizer
+[2019-07-31 09:44:39.661] [sharedprocess] [info] Extensions installed successfully: coenraads.bracket-pair-colorizer

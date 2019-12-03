@@ -1,0 +1,53 @@
+md-sidenav{
+    width: 200px;
+    /* background: rgb(44, 62, 80); */
+}
+
+.md-button.md-fab {
+    line-height: 2rem;
+    min-width: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.nav-padding{
+    padding-left: 250px;
+}
+
+.text-item{
+    color: beige;
+}
+
+.switch-item{
+    padding-bottom: 15px;
+}
+
+.forngview{
+    padding-left: 200px;
+}
+
+/* .md-padding{
+    background: rgb(44, 62, 80);
+} */
+
+.menuBtn {
+    padding: 0 0px 0 0px;
+    margin: 0px 0px 0px 0px;
+    min-width: 88px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    border: none;
+    outline: none;
+}
+
+.inherit_btn{
+    border-color: transparent; 
+    background: inherit;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}

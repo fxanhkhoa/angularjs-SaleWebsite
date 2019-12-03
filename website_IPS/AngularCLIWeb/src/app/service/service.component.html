@@ -1,0 +1,58 @@
+<section class="banner-area section-gap" [@scrollAnimation]="state" id="service">
+  <h1 class="for-h">Dịch Vụ</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <ul class="list-group">
+          <li class="list-group-item active">Embedded System</li>
+          <li class="list-group-item">Micro Controler (ATMEGA, STM32, ARDUINO, ...)</li>
+          <li class="list-group-item">Proteus (Schematic and PCB)</li>
+          <li class="list-group-item">Internet Of Thing (IOT)</li>
+          <li class="list-group-item">Automotive</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="list-group">
+          <li class="list-group-item active">Software</li>
+          <li class="list-group-item">Android Application</li>
+          <li class="list-group-item">C# Application/Embedded Application</li>
+          <li class="list-group-item">Server Application/Web (C#, Nodejs, php, javascript)</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="list-group">
+          <li class="list-group-item active">Artificial intelligence/ Computer vision</li>
+          <li class="list-group-item">OpenCV</li>
+          <li class="list-group-item">Machine/Deep learning (Keras, Tensorflow, Sklearn, ...)</li>
+          <li class="list-group-item">Nvidia Jetson Board, Raspberry</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="list-group">
+          <li class="list-group-item active">Automation</li>
+          <li class="list-group-item">Selenium in Python</li>
+          <li class="list-group-item">Selenium in C#</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="list-group">
+          <li class="list-group-item active">Miscellaneous</li>
+          <li class="list-group-item">Cài đặt window/Linux(Ubuntu, Centos, ...)</li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+</section>
+<section class="banner-area section-gap" [@scrollAnimation]="state" id="Platform_support">
+    <h1 class="for-h">Platform Support</h1>
+    <div class="container">
+        <div class='col-12 section-gap '>
+            <gallery 
+              [flexBorderSize]="5" 
+              [flexImageSize]="10"
+              [galleryName]="'serviceGallery'" 
+              [maxRowsPerPage]="100">
+            </gallery>
+          </div>
+    </div>
+</section>

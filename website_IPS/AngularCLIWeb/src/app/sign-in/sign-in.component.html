@@ -1,0 +1,59 @@
+<div class="container section-gap justify-content-center col-8" id="signin">
+  <h1 class="for-h">Đăng Nhập</h1>
+  <form (ngSubmit)="onSubmit()" [formGroup]="formSignIn">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input 
+        placeholder="Email" 
+        type="email" 
+        class="form-control" 
+        id="email" 
+        name="email"
+        email
+        formControlName="email">
+      <label class="text-danger" *ngIf="formSignIn.controls.email.touched && formSignIn.controls.email.errors?.required"> Nhập Email </label>
+      <label class="text-danger" *ngIf="formSignIn.controls.email.touched && formSignIn.controls.email.errors?.email"> Sai định dạng Email </label>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input 
+        placeholder="Password" 
+        type="password" 
+        class="form-control" 
+        id="password" 
+        name="password"
+        formControlName="password">
+      <label class="text-danger" *ngIf="formSignIn.controls.password.touched && formSignIn.controls.password.errors?.required"> Nhập Password </label>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="rememberme"> Remember me
+      </label>
+    </div>
+    <div class="form-group">
+      <ngx-recaptcha2 #captchaElem
+        [siteKey]="'6LcWba8UAAAAAD27sHhCmBQ2-xf0PBtt7L1v9uFP'"
+        (reset)="handleReset()"
+        (expire)="handleExpire()"
+        (load)="handleLoad()"
+        (success)="handleSuccess($event)"
+        [useGlobalDomain]="false"
+        [size]="size"
+        [hl]="lang"
+        [theme]="theme"
+        [type]="type"
+        formControlName="recaptcha">
+     </ngx-recaptcha2>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-success" [disabled]="formSignIn.invalid">Submit</button>
+    </div>
+    <div class="form-group">
+      <div class="text-danger" ng-if="errorMessage">{{ errorMessage }}</div>
+    </div>
+    <!-- <button class="btn btn-warning" (click)="postToExpress()">Post</button> -->
+  </form>
+  <!-- <p> -->
+    <!-- {{ txtEmail.errors | json }} -->
+  <!-- </p> -->
+</div>
