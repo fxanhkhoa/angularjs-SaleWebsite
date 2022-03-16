@@ -4,7 +4,7 @@
   "description": "",
   "main": "Create_mongo_db_ips.js",
   "dependencies": {
-    "angular": "^1.6.4",
+    "angular": "^1.8.0",
     "angular-route": "^1.6.4",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
